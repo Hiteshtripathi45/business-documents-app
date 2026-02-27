@@ -22,7 +22,7 @@ import {
   RequestQuote,
   Settings,
 } from '@mui/icons-material';
-import { Link, useNavigate } from 'react-router-dom';
+import {useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
